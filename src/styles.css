@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+.container {
+    max-width: 1640px;
+    padding-top: 1%;
+}
+.bottom-offset {
+    margin-bottom: 1px;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+.pgTitle {
+    font-size: 2em;
+    text-align: center;
+}
+.formDiv {
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+.formDiv > form {
+    font-size: 1.2em;
+}
